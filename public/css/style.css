@@ -1,0 +1,144 @@
+body{
+	margin-top:0px;
+	padding:0px;
+}
+
+.navbar{
+	width:100%;
+	background:#222;
+	position:fixed;
+	z-index:999999;
+}
+.navbar-inverse{
+	width:100%;
+    position:relative;
+    list-style-type: none;
+    padding:12px 0px;
+}
+.navbar-right{
+	margin-top: 30px;
+	float:right;
+	position:relative;
+	list-style-type: none:
+	padding:12px 0px;
+}
+.navbar-inverse, .navbar-right li{
+	display:inline-block;
+}
+.navbar-right li a{
+	text-decoration: none;
+	color: #ccc;
+	font-size:13px;
+	font-family: arial;
+	padding:19px;
+	transition: all .5s ease-out; 
+}
+.navbar-right li a:hover{
+	color:#fff;
+	background:dodgerblue;
+	transition: all .5s ease-in;
+}
+.navbar-logo img{
+	width:80px;
+	float:left;
+}
+.hero{
+	height:500px;
+	background-image:url(css/hero.png);
+}
+footer{
+	height:25px;
+	color: #ccc;
+	position:fixed;
+	right:0;
+	bottom:0;
+	left:0;
+	padding:1rem;
+	background-color:#222;
+	text-align:center;
+}
+footer, p{
+	float:right;
+	padding:5px;
+}
+.navi ul ul{
+	display:none;
+}
+.navi ul li:hover  ul{
+display:block;
+}
+.navi ul{
+	background: #efefef;
+	padding:0;
+	list-style: none;
+	position:relative;
+	display:inline-table;
+}
+.navi ul:after{
+	content: "";
+	clear: both;
+	display:block;
+}
+.navi ul li{
+	position:relative;
+	width:80px;
+}
+.navi ul li:hover{
+	background:#1abc93;
+}
+.navi ul li:hover a{
+	color:#fff;
+}
+.navi ul li a{
+ display: block;
+ padding: 12px 25px;
+ color: #757575; 
+ text-decoration: none;
+}
+.navi ul ul {
+	background: #5f6975;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top:0;
+	left:100%;
+}
+.navi ul ul li{
+	float:none;
+	position:relative;
+}
+.navi ul ul li a{
+	padding:12px 25px;
+	color: #fff;
+}
+.navi ul ul li a:hover{
+	background: #1b9bff;
+}
+.navi ul ul ul{
+	position: absolute;
+	left:100%;
+	top:0;
+}
+.img{
+	margin-left:400px;
+	margin-top:100px;
+}
+td{
+	
+	padding: 15px 25px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,#fbfbfb, #fafafa);
+}
+th{
+   margin-top:50px;
+   font-size:15px;
+   background-image : url(/css/th.jpg);
+   padding:15px 35px;
+   border-left:1px solid #e0e0e0;
+   border-bottom:1px solid #e0e0e0;
+   color: dodgerblue;
+}
